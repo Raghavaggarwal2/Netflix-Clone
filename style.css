@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/bgimg.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+
+}
+
+.main .box {
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    height: 12vh;
+}
+
+nav img {
+    width: 134px;
+
+    display: flex;
+    align-items: center;
+}
+
+.buttons :nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.496);
+    color: white;
+    padding: 7px 15px;
+    border: 1px solid;
+    border-color: rgb(195, 193, 193);
+    width: 5vw;
+    cursor: pointer;
+}
+
+.buttons :nth-child(2) {
+    padding: 7px 12px;
+    margin-left: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.center {
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 85%;
+    max-width: 60%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.center> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.center :nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.center :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.center> :nth-child(4) {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.center input {
+    padding: 11px 10px;
+    width: 23vw;
+    border: 1px solid;
+    border-color: rgb(195, 193, 193);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.496);
+    color: white;
+    font-size: 17px;
+}
+
+.center button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold !important;
+}
+
+.line {
+    background-color: rgb(29, 29, 29);
+    height: 8px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.first {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.text-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+    gap: 15px;
+    margin: auto;
+    height: 65vh;
+    margin-left: 195px !important;
+}
+
+.text-left :nth-child(1) {
+    font-size: 48px !important;
+}
+
+.text-left :nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.img {
+    margin-right: 80px;
+}
+
+.img img {
+    position: relative;
+    z-index: 1;
+}
+
+.img video {
+    position: absolute;
+    top: 76px;
+    right: 147px;
+    width: 368px;
+}
+
+.img-left img {
+    position: relative;
+    right: 320px;
+}
+
+.text-right {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50vw !important;
+    justify-content: center;
+    /* text-align: center; */
+    width: 35vw;
+    font-family: sans-serif;
+    gap: 23px;
+}
+
+.text-right h1 {
+    font-size: 48px;
+    width: 40vw;
+}
+
+.text-right> :nth-child(2) {
+    font-size: 24px;
+    width: 43vw;
+}
+
+.img video {
+    position: absolute;
+    top: 37px !important;
+    right: 188px !important;
+    width: 340px !important;
+}
+
+.text-left :nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+    width: 35vw;
+}
+
+.img-left1 img {
+    position: relative;
+    right: 265px;
+    top: 50px;
+}
+
+.text-right1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50vw !important;
+    justify-content: center;
+    /* text-align: center; */
+    width: 35vw;
+    font-family: sans-serif;
+    gap: 23px;
+}
+
+.text-right1 h1 {
+    font-size: 48px;
+    width: 40vw;
+}
+
+.text-right1> :nth-child(2) {
+    font-size: 24px;
+    width: 43vw;
+}
+
+.center1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 75vw;
+    color: white;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+}
+
+.center1 h1 {
+    text-align: center;
+    font-size: 48px;
+    padding: 23px;
+}
+
+.center1 .box {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    padding: 1em;
+    font-size: 24px;
+}
+
+.endone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+
+.center1 input {
+    padding: 11px;
+    width: 23vw;
+    border: 1px solid;
+    border-color: rgb(195, 193, 193);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.496);
+    color: white;
+    font-size: 17px;
+}
+
+.center1 button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold !important;
+    font-size: 21px !important;
+}
+
+footer{
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.center2{
+    display: grid;
+    margin-top: 20vh !important;
+    margin-bottom: 20vh !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(255,255,255,0.7);
+    column-gap: 125px;
+}
+
+.center2 ul{
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+
+
+footer button{
+    background-color: rgba(0, 0, 0, 0.496);
+    color: white;
+    padding: 7px 15px;
+    border: 1px solid;
+    border-color: rgb(195, 193, 193);
+    width: 5vw;
+    cursor: pointer;
+}
+
+.o1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer p{
+    color: rgb(255,255,255,0.7);
+    font-size: 15px;
+    display: flex;
+    height: 5vh;
+    position: relative;
+    top: 54vh;
+    right: 63vw;
+
+}
